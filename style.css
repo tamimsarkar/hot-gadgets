@@ -3,10 +3,10 @@ body{
 }
 header{
     margin-bottom: 70px;
-    background-image: url(images/bg-1.png);
-    background-repeat: no-repeat;
-    background-position:bottom;
-    background-size: 80px;
+    background-image: url(images/bg-1.png),url(images/bg-2.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position:top,left bottom;
+    background-size: 70px,cover;
 }
 section{
     margin-bottom: 85px;
