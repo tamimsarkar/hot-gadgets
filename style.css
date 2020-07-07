@@ -3,6 +3,14 @@ body{
 }
 header{
     margin-bottom: 70px;
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: 80px;
+}
+section{
+    margin-bottom: 85px;
+    
 }
 .navbar-brand img{
     width: 100px;
@@ -11,13 +19,18 @@ header{
     margin-left: 30px;
 }
 .carousel-indicators li{
-    background-color: black;
+    background-image: linear-gradient(45deg,orange,rgba(247, 185, 70, 0.856));
+    width: 10px;
+    height: 9px;
+    border-radius: 50%;
+    transition: .4s;
+ 
 
 }
 .carousel-indicators li.active{
-    width: 5%;
-    height: 6px;
-    
+    width: 30px;
+    height: 8px;
+    border-radius: 40%;
 }
 .buy{
     background-color: black;
@@ -27,4 +40,47 @@ header{
     border-radius: 5px;
     font-weight: 500;
     letter-spacing: 1px;
+}
+.slider-button{
+    margin-left: 0%;
+    margin-top: 20px;
+}
+.smartphone-color{
+    color: orange;
+}
+.card-body h5, .card-body p{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px 20px lightgray;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.card img{
+    width: 50%;
+    margin: auto;
+}
+.price{
+    margin: 30px 0px;
+}
+.buy{
+margin-left: 25%;
+box-shadow: 7px 7px 7px lightgray;
+}
+#categories{
+    background-color: #fff;
+}
+.cat-head h2{
+    text-align: center;
+}
+.under-cat{
+    width: 60px;
+    height: 6px;
+    background-image: linear-gradient(45deg,rgb(253, 219, 124),orange);
+   position: relative;
+   left: 50%;
+   transform: translate(-50%,50%);
+   margin-top: 30px;
+   border-radius: 2px;
 }
